@@ -1,5 +1,6 @@
-on: 
-  workflow_dispatch
+on:
+  push:
+    branches: [main ]
 env:
   DAY_OF_WEEK: Monday
 
